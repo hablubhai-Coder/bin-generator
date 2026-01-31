@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: black;
+  color: #00ff66;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.terminal {
+  position: relative;
+  z-index: 1;
+  border: 2px solid #00ff66;
+  box-shadow: 0 0 30px #00ff66;
+  padding: 20px;
+  width: 330px;
+  margin: auto;
+  margin-top: 80px;
+  background: rgba(0,0,0,0.85);
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 0 0 10px #00ff66;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  border: 1px solid #00ff66;
+  color: #00ff66;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #00ff66;
+  color: black;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: left;
+  white-space: pre-line;
+}
